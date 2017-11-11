@@ -18,4 +18,4 @@ RUN \
   rm -rf /var/lib/apt/lists/*
 
 # Install Project Package
-RUN pip install  --upgrade  redis py4j elasticsearch 
+RUN pip install  --upgrade  redis py4j elasticsearch  pyping
