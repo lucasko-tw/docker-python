@@ -14,7 +14,7 @@ RUN \
   apt-get -y upgrade && \
   apt-get install -y build-essential && \
   apt-get install -y software-properties-common && \
-  apt-get install -y  curl git htop  vim   && \
+  apt-get install -y  curl git htop  vim iputils-ping  && \
   rm -rf /var/lib/apt/lists/*
 
 # Install Project Package

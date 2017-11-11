@@ -24,3 +24,9 @@ RUN \
 # Install Project Package
 RUN pip install  --upgrade  redis py4j elasticsearch 
 ```
+
+### Docker Run
+```
+
+docker run --name scan -v $PWD:/opt -it lucasko/python python /opt/app.py
+```
